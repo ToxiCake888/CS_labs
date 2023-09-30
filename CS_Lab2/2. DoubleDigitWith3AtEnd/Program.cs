@@ -6,18 +6,22 @@
 
         Console.Write("Ввести число: ");
         string number = Console.ReadLine();
-        if (LastChar == number[1])                // ВОПРОС: ПОЧЕМУ ОНО ЖАЛУЕТСЯ ЕСЛИ ПИСАТЬ ЧЕРЕЗ and ???????????????
-            if (number.Length == 2)
-            {
-                Console.WriteLine("Число двухзначное,кончается на 3 , четкое 10/10 кароч");
-            }
-            else
-            {
-                Console.WriteLine("Число плохое не уважаю такие");
-            }
+        if  (number.Length == 2)           // ВОПРОС: ПОЧЕМУ ОНО ЖАЛУЕТСЯ ЕСЛИ ПИСАТЬ ЧЕРЕЗ and ???????????????
+        {
+            Console.WriteLine("dvuhznacnoe");
+        }
         else
         {
-            Console.WriteLine("Число плохое не уважаю такие");
+            Console.WriteLine("Ne dvuhznacnoe");
         }
+        if (number[number.Length-1]==LastChar)
+        {
+            Console.WriteLine("3 at end");
+        }
+        else
+        {
+            Console.WriteLine("not 3 at end");
+        }
+
     }
 }
