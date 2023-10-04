@@ -3,9 +3,9 @@
     static void Main()
     {
         Console.Write("insert side: ");
-        int a = Convert.ToInt16(Console.ReadLine());
+        double a = Convert.ToDouble(Console.ReadLine());
         Console.Write("P = ");
-        int p = Convert.ToInt16(Console.ReadLine());
+        double p = Convert.ToDouble(Console.ReadLine());
         Console.Write("Other sides: ");
         Console.Write((p-a)/2.0);
     }

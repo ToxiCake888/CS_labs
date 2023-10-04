@@ -3,11 +3,11 @@
     static void Main()
     {
         Console.Write("P = ");
-        int p = Convert.ToInt32(Console.ReadLine());
+        double p = Convert.ToDouble(Console.ReadLine());
         Console.Write("Insert first cathetus: ");
-        int a = Convert.ToInt32(Console.ReadLine());
+        double a = Convert.ToDouble(Console.ReadLine());
         Console.Write("Insert second cathetus: ");
-        int b = Convert.ToInt32(Console.ReadLine());
+        double b = Convert.ToDouble(Console.ReadLine());
         Console.Write("Hypothenuse = ");
         Console.Write(p - a - b);
     }

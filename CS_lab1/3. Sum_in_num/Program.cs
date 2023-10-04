@@ -8,6 +8,9 @@
         int b = Convert.ToInt32(num[1] - '0');
         int c = Convert.ToInt32(num[2] - '0');
         int d = a + b + c;
-        Console.Write(d);
+        Console.Write("Multiplication = ") ;
+        Console.WriteLine(a*b*c);
+        Console.Write("Summ = ");
+        Console.WriteLine(d);
     }
 }
